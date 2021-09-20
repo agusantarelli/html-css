@@ -1,0 +1,42 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.post{
+    max-width: 1200px;
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    margin: 30px;
+
+}
+
+.post p{
+    border-top: solid 1px lightgray;
+    border-bottom: solid 1px lightgray;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+.post h3{
+    padding: 0px 20px;
+    font-weight: normal;
+
+}
+
+.post h3 span{
+    font-weight: bold;
+}
+
+.post button{
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px 20px ;
+    color: white;
+    background-color: rgb(95, 159, 243);
+    border: none;
+
+}

@@ -1,0 +1,16 @@
+body{
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    padding: 0px 15px;    
+    background-color: rgb(67, 129, 230);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+nav a{
+    margin: 10px;
+    text-decoration: none;
+}
